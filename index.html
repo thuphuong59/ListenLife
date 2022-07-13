@@ -1,14 +1,97 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Project</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+   <link rel="stylesheet" href="./css/all.css">
+   <link rel="stylesheet" href="/css/all.min.css">
+   <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <p>Hello world</p>
+    <nav class="sidebar">
+        <header>
+            <div class="image-text">
+                <!-- <span class="image">
+                    <img src="/logo/Logo.jpg" alt="logo">
+                </span> -->
+                <i class="fa-solid fa-compact-disc top-nav"></i>
+                <div class="text header-text">
+                    <span class="name">ListenLife</span>
+                    <span class="profession">Web Developers</span>
+                </div>
+            </div>
+            <div>
+                <i class='bx bx-chevron-right toggle' ></i>
+            </div>
+        </header>
+<!-- Menu bar -->
+        <div class="menu-bar">
+            <div class="menu">
+                <li class="search-box">
+                        <i class='bx bx-search icons' ></i>
+                        <input type="search" placeholder="Seach...">
+                </li>
+                <ul class="menu-link">
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-home-alt icons'></i>
+                            <span class="text nav-text">Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-bar-chart-alt-2 icons'></i>
+                            <span class="text nav-text">Trend</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-bell icons' ></i>
+                            <span class="text nav-text">Notification</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-heart icons' ></i>
+                            <span class="text nav-text">Liked Song</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-home-alt icons'></i>
+                            <span class="text nav-text">Favourite Artist</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-music icons'></i>
+                            <span class="text nav-text">Playlist</span>
+                        </a>
+                    </li>
+                </ul>
+            <div class="bottom-content">
+                    <li>
+                        <a href="#">
+                            <i class='bx bx-log-out icons'></i>
+                            <span class="text nav-text">Log out</span>
+                        </a>
+                    </li>
+
+                    <li class="mode">
+                        <div class="dark-light">
+                            <i class='bx bx-moon icons' ></i>
+                        </div>
+                        <span class="text nav-text">Dark mode</span>
+                    </li>
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
 </body>
 </html>
